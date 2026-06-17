@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProWeb - Crafting Digital Experiences</title>
+    <link rel="stylesheet" href="./static/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Pro<span>Web</span></div>
+        <nav>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#stats">Impact</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login">login</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-actions">
+            <div id="theme-toggle" class="theme-btn">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1>Crafting <span class="gradient-text">Digital</span> <br>Experiences</h1>
+                <p>Scale your business with speed, high-end security, and smart responsive design built for the modern
+                    web.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn primary-btn">Get Started</a>
+                    <a href="#services" class="btn secondary-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <svg viewBox="0 0 500 500" class="hero-svg">
+                    <defs>
+                        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#b10000;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="50" y="50" width="400" height="300" rx="20" fill="url(#grad)" opacity="0.1" />
+                    <rect x="80" y="80" width="340" height="200" rx="10" fill="url(#grad)" />
+                    <circle cx="120" cy="330" r="15" fill="#38bdf8" />
+                    <circle cx="160" cy="330" r="15" fill="#38bdf8" />
+                    <rect x="200" y="320" width="220" height="20" rx="10" fill="#38bdf8" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="trusted-strip">
+        <p>Trusted by industry leaders worldwide</p>
+        <div class="logos-container">
+            <span><i class="fa-brands fa-google"></i> Google</span>
+            <span><i class="fa-brands fa-meta"></i> Meta</span>
+            <span><i class="fa-brands fa-microsoft"></i> Microsoft</span>
+            <span><i class="fa-brands fa-amazon"></i> Amazon</span>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header">
+            <span class="sub-title">What We Do</span>
+            <h2 class="section-title">Our Core Services</h2>
+        </div>
+        <div class="grid-container">
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                <h3>Web Development</h3>
+                <p>Clean, production-grade applications optimized for extreme speed.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                <h3>apps Development</h3>
+                <p>Clean, production-grade applications optimized for extreme speed.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>UI/UX Architecture</h3>
+                <p>User-centric wireframes and dynamic high-fidelity interface layouts.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Cyber Security</h3>
+                <p>Advanced data protection, SSL deployment, and secure API structures.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+        <div class="split-container">
+            <div class="split-left">
+                <div class="decorative-box">
+                    <i class="fa-solid fa-chart-line giant-icon"></i>
+                </div>
+            </div>
+            <div class="split-right">
+                <span class="sub-title">Why Choose Us</span>
+                <h2>We Drive Results for Your Business</h2>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Enterprise-grade security architectures</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Ultra-optimized SEO setup for high visibility</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Dedicated 24/7 post-deployment tech support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3 class="stat-number" data-target="150">0</h3>
+                <p>Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number" data-target="99">0</h3>
+                <p>Happy Clients %</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number" data-target="45">0</h3>
+                <p>Expert Developers</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <span class="sub-title">Feedback</span>
+            <h2 class="section-title">What Our Clients Say</h2>
+        </div>
+        <div class="testimonial-box">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <p class="review-text">"ProWeb built our web platform seamlessly. The transition increased our mobile
+                conversions by 40%. Highly recommended!"</p>
+            <div class="client-info">
+                <h4>Saheb Chaudhary</h4>
+                <span>CEO, TechCorp International</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="form-wrapper">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <form action="https://formspree.io/f/xoqgkyov" method="POST" id="proForm">
+                <div class="form-row">
+                    <input type="text" name="name" id="name" placeholder="Full Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                </div>
+                <textarea name="message" id="message" rows="5" placeholder="Tell us about your project..."
+                    required></textarea>
+                <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                <p id="form-msg" class="form-feedback"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">Pro<span>Web</span></div>
+            <p>&copy; 2026 ProWeb Engineering Saheb sahni. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./static/js/script.js"></script>
+</body>
+
+</html>
